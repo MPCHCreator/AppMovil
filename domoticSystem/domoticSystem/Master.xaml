@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="domoticSystem.Master"
+             Title="Master">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="cont1" Text="Seguridad" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" TextColor="#141420" Clicked="goSeguridad"/>
+            <Button x:Name="cont2" Text="Luces" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" TextColor="#141420" Clicked="goLuces"/>
+            <Button x:Name="cont3" Text="Ventilación" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" TextColor="#141420" Clicked="goVentilacion"/>
+            <Button x:Name="cont4" Text="Gas" HorizontalOptions="Center" BackgroundColor="WhiteSmoke" TextColor="#141420" Clicked="goGas"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
